@@ -1,1 +1,11 @@
 * {font-family:  'Roboto', sans-serif;}
+/* Colors */
+.header__row--background-color {background-color:#fefefe}
+.jumbotron--color{color:rgb(40, 40, 43);
+background-color: #e84d1b;}
+
+
+/* Styling the header */
+.img__size {max-height: 300px;}
+.header__title--main {letter-spacing: 2px;
+}
