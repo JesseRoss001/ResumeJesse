@@ -1,11 +1,16 @@
-* {font-family:  'Roboto', sans-serif;}
+* {font-family:  'Roboto', sans-serif;
+padding:0px;
+margin:0px;}
 /* Colors */
-.header__row--background-color {background-color:#fefefe}
-.jumbotron--color{color:rgb(40, 40, 43);
-background-color: #e84d1b;}
+.header__row--background-color {background-color:#e2dcdc}
+
+
 
 
 /* Styling the header */
+@media (min-width:767px) {
+.header__image-border {border:2px solid #fefefe}
+.header__text-border {border:2px solid #fefefe}  }
 .img__size {max-height: 300px;}
 .header__title--main {letter-spacing: 2px;
 }
